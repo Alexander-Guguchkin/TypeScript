@@ -1,0 +1,11 @@
+let vars: number|null = 12;
+console.log(vars);
+vars = null;
+console.log(vars);
+let vars1: number|string|boolean;
+vars1 = 10;
+console.log( vars1);
+vars1 = 'Hello';
+console.log( vars1);
+vars1 = true;
+console.log( vars1);
